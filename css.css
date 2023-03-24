@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo h1 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #173A56;
+    margin-left: 16px;
+}
+
+.header-nav a {
+    font-weight: 600;
+    font-size: 16px;
+    color: #223430;
+    padding: 0 15px;
+    transition: .5s;
+}
+.header-nav a:hover {
+    color: blue;
+    text-decoration-line: underline ;
+}
+
+.header-nav button {
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFF;
+    background: #02897A;
+    border-radius: 4px;
+    padding: 15px 25px;
+    border: 2px solid #01897A;
+}
+.header-nav button:hover{
+    background: transparent;
+    color: #173A56;
+    border: 2px solid #173A56;
+}
+.header-nav ion-icon{
+    font-size: 26px;
+    color: #02897A;
+    rotate: 180deg;
+}
